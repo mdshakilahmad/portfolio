@@ -1,0 +1,254 @@
+/* (1366x768) WXGA Display */
+@media screen and (min-width: 1366px) and (max-width: 1920px) {}
+
+
+/*Medium Desktop Device*/
+@media screen and (min-width: 1200px) and (max-width: 1366px) {}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+    header .menu ul li {
+        padding-left: 30px;
+    }
+
+    .banner .main {
+        flex-direction: column-reverse;
+    }
+
+    .banner_text {
+        align-self: flex-start;
+        margin-top: 48px;
+    }
+
+    .banner_text p {
+        font-size: 30px;
+    }
+
+    .banner_text {
+        width: 100%;
+    }
+
+    .banner_text h1 {
+        font-size: 40px;
+        line-height: 76px;
+    }
+}
+
+
+/* Normal desktop :991px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    header .menu ul li {
+        padding-left: 25px;
+    }
+
+    .banner .main {
+        flex-direction: column-reverse;
+    }
+
+
+    .banner_text {
+        align-self: flex-start;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+        line-height: 44px;
+        margin-top: 42px;
+    }
+
+    .banner_text p {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .icon_area a {
+        padding: 10px 14px;
+    }
+
+    .image {
+        border: 35px solid #fff;
+    }
+
+    #About .main {
+        flex-direction: column-reverse !important;
+    }
+
+    .banner_text {
+        width: 100%;
+    }
+
+    .banner_text h1 {
+        font-size: 26px;
+        line-height: 44px;
+        margin-top: 42px;
+    }
+
+    .Counting p {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    #Portfolio {
+        padding: 50px 0;
+    }
+
+    .service {
+        padding: 50px 0;
+    }
+
+    #About {
+        padding-top: 50px;
+    }
+
+
+    .my_skill {
+        padding: 50px 0;
+    }
+
+    .Clients_slider_area {
+        padding: 50px 0;
+    }
+
+    #Contact {
+        padding-top: 50px;
+    }
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .slicknav_menu {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .signUp {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+        width: 100%;
+        position: fixed;
+        top: 18px;
+        right: 0;
+    }
+
+    .banner .main {
+        flex-direction: column-reverse;
+    }
+
+    .banner_text {
+        align-self: flex-start;
+    }
+
+    .banner {
+        padding: 50px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 32px;
+        line-height: 48px;
+        margin-top: 42px;
+    }
+
+    .icon_area a {
+        padding: 5px 10px;
+    }
+
+    .image {
+        border: 30px solid #fff;
+    }
+
+    .banner_text p {
+        margin-bottom: 24px;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.20em;
+    }
+
+    #About .main {
+        flex-direction: column-reverse !important;
+    }
+
+    .banner_text h1 {
+        font-size: 25px;
+        line-height: 46px;
+        margin-top: 42px;
+    }
+
+    .service {
+        padding: 50px 0;
+    }
+
+    #About {
+        padding-top: 50px;
+    }
+
+    .about_text h2 {
+        font-size: 28px;
+        line-height: 42px;
+        margin-top: 50px;
+    }
+
+    .about_text h3 {
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 11px;
+    }
+
+    .header_area h1 {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .progress_bar h3 {
+        line-height: 24px;
+        font-size: 16px;
+    }
+
+    .progress_bar .progress-bar>span {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 23px;
+    }
+
+    .my_skill {
+        padding: 50px 0;
+    }
+
+    #Contact h1 {
+        font-size: 28px;
+        line-height: 42px;
+        margin-bottom: 42px;
+    }
+
+    .send_button {
+        padding: 15px 98px;
+    }
+
+    #Portfolio {
+        padding: 50px 0;
+    }
+
+    .Clients_slider_area {
+        padding: 50px 0;
+    }
+
+    #Contact {
+        padding-top: 50px;
+    }
+
+    /* Large Mobile :480px. */
+    @media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+    /* small mobile :320px. */
+    @media (min-width: 240px) and (max-width: 479px) {}
